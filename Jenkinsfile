@@ -3,12 +3,12 @@ pipeline {
 
 	
 	stages {
-		stage ('Checkout') {
-			steps {
-			git branch : 'master' , url: 'https://github.com/psivaramps/gcsbucket.git'
+		//stage ('Checkout') {
+		//	steps {
+		//	git branch : 'master' , url: 'https://github.com/psivaramps/gcsbucket.git'
 
-			}
-		}
+		//	}
+		//}
 
 		
 		stage ('Creating a Bucket') {
